@@ -6,15 +6,16 @@
 ```html
 <script>
 	import TreeGrid from 'svelte-treegrid'
+
+  const dataSource = [
     
-    const dataSource = [
-    
-    	{ id: 'product_01', name: 'Product 01', createdAt: new Date(), price: 1000 },
-    
-    	{ id: 'category_01', name: 'Category 01', category: 'category' },
-    	{ id: 'product_01.01', name: 'Product 01.01', createdAt: new Date(), parent: 'category_01', price: 1000 },
-    ]
-	let treeGridComponent = {}
+    { id: 'product_01', name: 'Product 01', createdAt: new Date(), price: 1000 },
+  
+    { id: 'category_01', name: 'Category 01', category: 'category' },
+    { id: 'product_01.01', name: 'Product 01.01', createdAt: new Date(), parent: 'category_01', price: 1000 },
+  ]
+
+  let treeGridComponent = {}
 
 	const editSettings = { allowEdit: true }
 	const columns = [
