@@ -1,0 +1,11 @@
+{
+	"name": "svelte-treegrid",
+	"description": "TreGrid Component for svelte.js",
+	"private": false,
+	"version": "0.9.1",
+	"author": "migueleraso",
+	"main": "index.js",
+	"svelte": "Main.svelte",
+	"keywords": [ "svelte", "treegrid" ]
+  }
+  
