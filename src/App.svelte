@@ -2,8 +2,8 @@
 
 	import { dataSource } from "./data";
 	// import TreeGrid from '../package/Main.svelte'
-	// import TreeGrid from '../package/index.js'
-	import TreeGrid from 'svelte-treegrid'
+	// import TreeGrid from 'svelte-treegrid'
+	import TreeGrid from '../package/index.js'
 
 
 	let treeGridComponent = {}

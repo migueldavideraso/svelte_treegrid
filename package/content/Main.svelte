@@ -67,7 +67,7 @@
 		/>
 	{/if}
 
-	{#each (elementsByParent[null] || []) as rowData}
+	{#each (elementsByParent[null] || []) as rowData (rowData.id)}
 
 		<Row
 			{isAllExpanded}
